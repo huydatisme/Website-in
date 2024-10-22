@@ -9,7 +9,7 @@ const nextConfig = {
   },
 
   // If you need a base path for GitHub Pages
-  basePath: 'https://github.com/huydatisme/Website-in', // Replace with the name of your repository
+  basePath: 'https://huydatisme.github.io/Website-in/', // Replace with the name of your repository
 
   // If you're using "standalone" output (optional, but good for optimization)
   output: 'standalone',
