@@ -11,8 +11,8 @@ const Features = () => {
       >
         <div className="container">
           <SectionTitle
-            title="Main Features"
-            paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+            title="Sản phẩm in ấn"
+            paragraph="In Gia Linh là công ty dịch vụ in ấn đáng tin cậy, chuyên nghiệp, chất lượng cao tại Việt Nam. Website của chúng tôi như một cẩm nang in ấn cung cấp nhiều thông tin hữu ích về công nghệ dịch vụ in ấn hiện đại mới nhất, hướng dẫn cách đặt in đạt hiệu quả cao. Tất tần tật các câu hỏi thường gặp về ngành in ấn "
             center
           />
 
