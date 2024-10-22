@@ -1,15 +1,15 @@
+// next.config.js
+
 /** @type {import('next').NextConfig} */
-const isProd = process.env.NODE_ENV === 'production';
-const repoName = 'https://github.com/huydatisme/Website-in/';
-module.exports = {
- 
-  basePath: isProd ? `/${repoName}` : '',
-  assetPrefix: isProd ? `/${repoName}/` : '',
-  
-  experimental: {
-    appDir: true, // Enable experimental app directory
-  },
-  images: {
-    unoptimized: true, // Disable image optimization as GitHub Pages doesn't support it
-  },
+const nextConfig = {
+  reactStrictMode: true,
+  swcMinify: true,
+
+  // Export static HTML files to use with GitHub Pages
+  output: 'export',
+
+  // Optional: If you need to set a base path for GitHub Pages
+  basePath: '/<REPO_NAME>', // Replace with the name of your repository
 };
+
+module.exports = nextConfig;
