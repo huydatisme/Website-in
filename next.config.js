@@ -6,7 +6,9 @@ module.exports = {
   basePath: isProd ? `/${repoName}` : '',
   assetPrefix: isProd ? `/${repoName}/` : '',
   
-  output: 'export',
+  experimental: {
+    appDir: true, // Enable experimental app directory
+  },
   images: {
     unoptimized: true, // Disable image optimization as GitHub Pages doesn't support it
   },
