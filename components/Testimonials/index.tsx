@@ -37,8 +37,8 @@ const Testimonials = () => {
     <section className="relative z-10 bg-primary/[.03] py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="What Our Users Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="Phản hồi của khách hàng"
+          paragraph="Với hơn 10 năm kinh nghiệm chúng tôi đã và đang là đơn vị in ấn sản phẩm cho rất nhiều đối tác từ các doanh nghiệp lớn đến các cửa hàng kinh doanh."
           center
         />
 

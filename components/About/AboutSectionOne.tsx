@@ -24,8 +24,9 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Crafted for Startup, SaaS and Business Sites."
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
+                title="Dịch vụ thiết kế và in ấn trọn gói giá rẻ"
+                paragraph="Với kinh nghiệm hơn 20 năm trong ngành in ấn, chúng tôi luôn mang đến sự hài lòng cho từng khách hàng với các dịch vụ như in offset, in flexo, in kỹ thuật số và in laser các loại tem nhãn, decal dán, ấn phẩm văn phòng, in ấn quảng cáo, in ấn bao bì theo yêu cầu.
+                "
                 mb="44px"
               />
 
@@ -35,15 +36,15 @@ const AboutSectionOne = () => {
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Premium quality" />
-                    <List text="Tailwind CSS" />
-                    <List text="Use for lifetime" />
+                    <List text="Dịch vụ tận tâm" />
+                    <List text="Giá cả ổn định" />
+                    <List text="Chất lượng vượt trội" />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Next.js" />
-                    <List text="Rich documentation" />
-                    <List text="Developer friendly" />
+                    <List text="Thiết kế theo yêu cầu" />
+                    <List text="Công nghệ hiện đại" />
+                    <List text="Giao hàng nhanh chóng" />
                   </div>
                 </div>
               </div>
@@ -55,10 +56,10 @@ const AboutSectionOne = () => {
                 data-wow-delay=".2s"
               >
                 <Image
-                  src="/images/about/about-image.svg"
+                  src="/images/about/about.png"
                   alt="about-image"
                   fill
-                  className="mx-auto max-w-full lg:mr-0"
+                  className="mx-auto  lg:mr-0"
                 />
               </div>
             </div>

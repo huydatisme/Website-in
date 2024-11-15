@@ -155,7 +155,7 @@ const Header = () => {
   className="hidden py-3 px-7 text-base font-bold hover:opacity-70 md:block"
   style={{ color: "#b91c1c" }}
 >
-  0988446379
+  0988.446.379
 </Link>
 
                 
