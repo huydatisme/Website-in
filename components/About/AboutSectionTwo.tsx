@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 const AboutSectionTwo = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const images = [
-    "/images/products/tem/4.png",
+    "/images/products/Tem/4.png",
     "/images/products/catalogue-01.jpg",
     "/images/products/phongbi/phongbi2.png",
     "/images/products/lichtet.jpg",
