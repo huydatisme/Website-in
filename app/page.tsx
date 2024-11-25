@@ -25,7 +25,7 @@ export default function Home() {
       <AboutSectionOne />
       <Testimonials />
       {/* <Pricing /> */}
-      <Blog />
+      {/* <Blog /> */}
       {/* <Contact /> */}
     </>
   );

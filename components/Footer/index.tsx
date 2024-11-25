@@ -3,14 +3,14 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="footer bg-neutral text-neutral-content p-10">
+    <footer className="footer bg-neutral text-neutral-content p-10 text-black dark:text-white ">
       <aside>
         <Image
           src="/images/logo/logo-2.svg"
           alt="logo"
           width={150}
           height={40}
-          className=" dark:hidden"
+          className=" "
         />
         <p>
           In Gia Linh

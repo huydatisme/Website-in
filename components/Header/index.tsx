@@ -6,6 +6,14 @@ import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
 
 const Header = () => {
+  const handleScroll = (path: string) => {
+    const targetId = path.replace("#", "");
+    const targetElement = document.getElementById(targetId);
+    if (targetElement) {
+      targetElement.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   // Navbar toggle
   const [navbarOpen, setNavbarOpen] = useState(false);
   const navbarToggleHandler = () => {
@@ -106,8 +114,13 @@ const Header = () => {
                       <li key={menuItem.id} className="group relative">
                         {menuItem.path ? (
                           <Link
-                            href={menuItem.path}
-                            className={`flex py-2 text-base text-dark group-hover:opacity-70 dark:text-white lg:mr-0 lg:inline-flex lg:py-6 lg:px-0`}
+                          href={menuItem.path.startsWith("#") ? menuItem.path : menuItem.path}
+                          onClick={(e) => {
+                            if (menuItem.path.startsWith("#")) {
+                              e.preventDefault(); // Ngăn hành vi mặc định của liên kết
+                              handleScroll(menuItem.path);
+                            }
+                          }}                            className={`flex py-2 text-base text-dark group-hover:opacity-70 dark:text-white lg:mr-0 lg:inline-flex lg:py-6 lg:px-0`}
                           >
                             {menuItem.title}
                           </Link>
