@@ -72,7 +72,7 @@ const AboutSectionTwo = () => {
                      Thiết kế lịch, hộp quà
                   </h3>
                   <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                      Thiết kế các loại lịch âm, dương, các loại bao bì hộp quà Tết, quà tặng theo yêu cầu                 </p>
+                      Thiết kế các loại lịch độc quyền, các loại bao bì hộp quà Tết, quà tặng theo yêu cầu                 </p>
                 </div>
               </div>
             </div>
